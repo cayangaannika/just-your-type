@@ -1,0 +1,161 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h3,
+h2 {
+  color: #fff;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+/*@media screen and (min-width: 980px) /* Desktop * {
+  body {
+    background: red;
+  }
+}*/
+
+@media screen  and (min-width: 500px) /* Tablet */{
+
+  body {
+    background-color: #19535F;
+  }
+
+  .frst {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', sans-serif;
+    padding-left: 13px;
+    display: block;
+    color: #fff;
+  }
+
+  .sec {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', sans-serif;
+    padding: 1px 10px 1px;
+    padding-left: 13px;
+    display: block;
+    color: #fff;
+
+  }
+
+  .isword {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', sans-serif;
+    padding: 1px 10px 1px;
+    margin-left: 375px;
+    margin-top: -84px;
+    position: fixed;
+    color: #fff;
+
+  }
+  .allthey {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', sans-serif;
+    margin-top: 200px;
+    display: block;
+    color: #fff;
+  }
+
+  .poor {
+
+    font-size: 100px;
+    font-family: 'Emblema One', fantasy;
+    padding: 10px 10px 1px;
+    display: inline-block;
+    padding-left: 13px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 60%;
+    z-index: -1;
+    background-color: #7B2D26;
+    border-radius: 10px;
+    background-size: contain;
+    color: #eee;
+  }
+
+
+  .money {
+    font-size: 130px;
+    font-family: 'Emblema One', fantasy;
+    display: inline-block;
+    padding-top: 40px;
+    color: #eee;
+    display: block;
+    background-color: #018E70;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+
+body {
+  background-color: black;
+  text-align: center;
+
+}
+.frst {
+  font-size: 60px;
+  font-family: 'Alfa Slab One', sans-serif;
+  padding: 10px 10px 4px;
+  display: block;
+  color: #fff;
+}
+
+.sec {
+  font-size: 40px;
+  font-family: 'Alfa Slab One', sans-serif;
+  padding: 1px 10px 1px;
+  display: block;
+  color: #fff;
+
+}
+
+.poor {
+
+  font-size: 90px;
+  font-family: 'Emblema One', fantasy;
+  padding: 10px 10px 1px;
+  display: inline-block;
+  background-color: #7B2D26;
+  border-radius: 10px;
+  background-size: contain;
+  color: #eee;
+}
+
+.money {
+
+  font-size: 90px;
+  font-family: 'Emblema One', fantasy;
+  display: inline-block;
+  color: #eee;
+  padding: 10px 10px 1px;
+  display: inline-block;
+  background-color: #018E70;
+  border-radius: 10px;
+  background-size: contain;
+
+}
